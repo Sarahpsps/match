@@ -51,9 +51,9 @@ body
 .login input
 {
     margin-top: 10px;
-    background-color: #FCE8EC;
+    background-color: #ffffff;
     padding-left: 10px;
-    color: #FCE8EC;
+    color: #0b0808;
     border: none;
     height: 45px;
     border-radius: 8px;
@@ -88,4 +88,16 @@ p{
 a{
     color: #b3ffb8;
     text-decoration: none;
+}
+
+
+ input type [radio] {
+    width: 8px;
+    height: 8px;
+}
+
+.radio label {
+    display: flex;
+    align-items: center;
+    /* Outros estilos, como cor de fundo, borda etc. */
 }

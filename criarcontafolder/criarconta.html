@@ -4,9 +4,15 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Entrar</title>
-  <link href="entrar.css" rel="stylesheet" type="text/css" />
+  <title>criar conta </title>
+  <link href="criarconta.css" rel="stylesheet" type="text/css" />
 </head>
+
+<body>
+    <script src="criarconta.js"></script>
+</body>
+
+
 <body>
     <section class="area-login">
         <div class="login">
@@ -16,10 +22,18 @@
 
           <form method="POST">
               <input type="text" name="usuário" placeholder="Nome de usuário" autofocus>
+              <label for="email"> </label>
+              <input type="email" id="email" name="email" placeholder="Digite seu e-mail...">
+
+              <input id="dataNascimento" type="date" />
+
+              <input type="radio" name="gender" style= "height: 35px; width: 35px;" value="male"> bunda <br>
+              <input type="radio" name="gender" style= "height: 35px; width: 35px;" value="female"> bumbum <br>
+              
               <input type="password" name="senha" placeholder="senha" autofocus>
               <input type="submit" value="Entrar" 
           </form>
-         <p>Já tem uma conta? <a href="#" >Entrar</a></p>
+         <p>Já tem uma conta? <a href="entrarfolder/entrar.html" >Entrar</a></p>
         </div>
     </section>
 </body>
