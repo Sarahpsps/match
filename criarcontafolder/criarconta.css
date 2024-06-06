@@ -12,7 +12,7 @@
 body 
 {
   min-height: 100vh;
-  background: linear-gradient(#FF0F00, #FF7000);
+  background: linear-gradient( #BB0029,#FF7000);
   font-family: Arial, Helvetica, sans-serif;
   overflow: hidden;
 }
@@ -32,10 +32,10 @@ body
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #FF0F00;
+    background-color:  #D2B48C;
     border-radius: 10px;
     width: 355px;
-    height: 320px;
+    height: 510px;
     padding: 35px;
 }
 
@@ -53,7 +53,7 @@ body
     margin-top: 10px;
     background-color: #ffffff;
     padding-left: 10px;
-    color: #0b0808;
+    color: #000000;
     border: none;
     height: 45px;
     border-radius: 8px;
@@ -66,7 +66,7 @@ body
 
 input::placeholder
 {
-    color: #750800;
+    color: #161515;
     font-size: 14px;
     padding-left: 1px;
     font-size: 13px;
@@ -75,18 +75,18 @@ input::placeholder
 
 form [type="submit"] {
     display: block;
-    background-color: #750800;
+    background-color: #424040;
     text-transform: uppercase;
     font-weight: bold;
     cursor: pointer;
 }
 
 p{
-    color: #750800;
+    color: #BB0029;
 }
 
 a{
-    color: #b3ffb8;
+    color: #255c25;
     text-decoration: none;
 }
 
