@@ -17,6 +17,53 @@ body
   overflow: hidden;
 }
 
+header
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 30px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .match
+{
+  color:  #fff;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 2em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+header ul
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header ul li
+{
+  list-style: none;
+  margin-left: 20px;
+}
+header ul li a
+{
+  text-decoration: none;
+  padding: 6px 15px;
+  color: #fff;
+  border-radius: 20px;
+  
+}
+header ul li a:hover,
+header ul li a.active
+{
+  background: #fff;
+  color: #2b1055;
+
+}
+
 .area-login 
 {
    display: flex;
@@ -53,7 +100,7 @@ body
     margin-top: 10px;
     background-color: #F5F5DC;
     padding-left: 10px;
-    color: #F5F5DC;
+    color: #000000;
     border: none;
     height: 45px;
     border-radius: 8px;
