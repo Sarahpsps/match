@@ -3,7 +3,7 @@ const users = [];
 function createAccount(usuario, email, senha, dataNascimento, gender){
     const userExists = users.some(user => user.usuario === usuario);
     if(userExists){
-        return { success: false, message: 'Nome de usuário já existe'};
+        return { sucess: false, message: 'Nome de usuário já existe'};
     }
     users.push({usuario, email, senha, dataNascimento, gender});
     return {sucess: true, message: 'Conta criada com sucesso!'};
